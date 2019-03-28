@@ -1,0 +1,751 @@
+body {
+    padding:0;
+    font-family: 'Roboto';
+    background: #8D99AE;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  ul{
+    list-style: none;
+    text-align: center;
+  }
+
+  #mainNav {
+    background-color:#232331;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #ffff;
+    font-weight: 800;
+  }
+  
+  #mainNav .navbar-nav .nav-item.active .nav-link {
+    color: #A31621;
+  }
+  .navbar-toggler{
+    background-color: #A31621;
+  }
+  .navbar-brand{
+    padding:0;
+  }
+  @media (min-width: 992px) {
+    #mainNav .navbar-nav .nav-item .nav-link {
+      font-size: 1.1rem;
+      padding-left:10px;
+      padding-right:10px;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: #A31621;
+    }
+    #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+      color: #A31621;
+    }
+  }
+
+.listaFooter{
+  padding-left: 100px;
+}
+
+.listaFooter2{
+  padding-top: 10px;
+}
+
+.drzave{
+    height: 20px;
+    width: 20px;
+    margin: 6px;
+}
+
+.logo{
+    float: left;
+    height: 40px;
+}
+
+.introImgCont{
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  position: absolute;
+  background-color: black;
+}
+
+.introCont{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.introImg{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.introImgKontakt{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 0.3;
+}
+
+.textIntroContainer{
+  background-color: white;
+  margin:0;
+  border-radius: 1%;
+  float: right;
+  opacity: 0.8;
+  margin-top: 15%;
+}
+
+.text-center{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.dugmeIntro:hover {
+  background-color: #232331;
+  border-color: #232331;
+}
+
+
+.dugmeOnama:hover {
+  background-color: #232331;
+  border-color: #232331;
+}
+
+.dugmeIntro{
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 15px;
+  opacity: 1;
+  background-color: #A31621;
+  border-color: #A31621;
+}
+
+.dugmeIntro2{
+  margin-top: 7%;
+  padding: 1.4rem;
+  border-radius: 15px;
+  background-color: #A31621;
+  border-color: #A31621;
+}
+
+.dugmeIntro2:hover {
+  background-color: #232331;
+  border-color: #232331;
+}
+
+.introNaslov{
+  padding-bottom: 1rem;
+  font-size: 300%;
+  font-weight: bold;
+  position: relative;
+}
+
+.onama{
+  margin-top: 13.5%; 
+  padding-left: 0;
+  padding-right: 0;
+  height: 450px;
+}
+
+.onama.row{
+  margin-right: 0;
+}
+
+.onamaSlika{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.kolona{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.onamaContainer{
+  background-color: #323247;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: white;
+}
+
+.tekstPoravnjanje{
+  padding-top: 0;
+  padding-bottom: 0; 
+}
+
+.naslovOnama{
+  font-size: 300%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+.textOnama{
+  padding-top: 0;
+  font-size: 120%;
+}
+
+.naslovUsluge{
+  font-size: 300%;
+  padding-bottom: 3%;
+  color: #ffff;
+  position: relative;
+}
+
+
+.drzavaLista{
+  font-size: 150%;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 2%;
+  color: #ffff;
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+.drzavaDesno{
+  margin-right: 0;
+}
+
+#drzavaDesno1{
+  margin-left: 6%;
+}
+
+.dugmeOnama{
+  margin-top: 4rem;
+  padding: 1.4rem;
+  border-radius: 15px;
+  opacity: 1;
+  background-color: #A31621;
+  border-color: #A31621;
+}
+
+.uslugeContainer{
+  margin-top: 3.15%; 
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.uslugeSlika{
+  padding: 0;
+  position: absolute;
+  margin-top: -1.57%;
+}
+
+.containerLista.row{
+  margin-right: 0;
+}
+
+.footer{ 
+  background-color: #A31621;
+}
+
+
+.logoFooter{
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+
+.containerLista{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.containerListaKonakt{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.prvaLista{
+  font-weight: bold;
+}
+
+#naslovFooterPrvi{
+  margin-right: 20%;
+}
+
+.uslugeFooterNaslov{
+  margin-right: 39%;
+  padding-bottom: 3%;
+}
+
+.containerfooter{
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.drugaLista{
+  list-style: none;
+  color: #232331;
+  font-weight: bold;
+}
+
+.footerNaslovDrugi{
+  margin-left: 50%;
+}
+
+.lokacija{
+  margin-bottom: 2%;
+  margin-right: 3%;
+  height:25px;
+  color: white;
+}
+
+.autorska{
+  padding: 0;
+  background-color: #232331;
+  color: #fff;
+}
+
+.kontaktTekst{
+  color: white;
+  position: relative;
+}
+
+.inputFormaLevo{
+  margin-right: 0;
+
+}
+
+.inputFormaDesno{
+  margin-left: 0;
+}
+
+.inputForma{
+  padding-top: 3%;
+  width: 99%;
+}
+
+.inputForma2{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 99%;
+}
+
+.dugmeKontakt{
+  position: relative;
+  border-radius: 15px;
+  background-color: #A31621;
+  border-color: #A31621;
+  padding-bottom: 12%;
+  padding-top: 12%;
+}
+
+.dugmeKontakt:hover{
+  background-color: #232331;
+  border-color: #232331;
+}
+
+.dugmeContainer{
+  padding-top: 3%;
+}
+
+.containerKontakt{
+  padding-top: 0%;
+}
+
+.ikoniceKontakt{
+  height: 20px;
+}
+
+.kontakt{
+  padding-bottom: 0;
+  padding-right: 0; 
+}
+
+.lok{
+  padding-top: 1.69%;
+  padding-right: 0;
+  padding-left: 0;
+  height: 432.1563px;;
+}
+
+.footer2{ 
+  background-color: #A31621;
+}
+
+.introNaslovServisi{
+  position: relative;
+  font-weight: bold;
+  font-size: 300%;
+  padding-top: 15%;
+}
+
+.imgUsluge{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ikonicePrve{
+  padding-right: 0;
+}
+.ikoniceDruge{
+  padding-right: 0;
+}
+
+.ikonice1{
+  padding-top: 10%;
+}
+
+.ikonice{
+  padding-top: 6%;
+}
+
+.containerIkonica{
+  padding-right: 0;
+  background-color: #232331;
+}
+
+.ikonicePadding{
+  padding-right: 0;
+}
+
+
+.prazan{
+  padding-top: 11.9%;
+}
+
+.onamaContainer2{
+  font-size: 130%;
+  padding-top: 4%;
+  background-color: #232331;
+}
+
+.naslovOnama2{
+  font-size: 300%;
+}
+
+.dugmeIntroOnama{
+  margin-top: 3rem;
+  padding: 1.4rem;
+  border-radius: 15px;
+  opacity: 1;
+  background-color: #A31621;
+  border-color: #A31621;
+}
+
+.dugmeIntroOnama:hover{
+  background-color: #232331;
+  border-color: #232331;
+}
+
+#carouselExampleIndicators{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sviServisi{
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 5%;
+
+}
+
+.dugmeMargina{
+  margin-bottom: 3%;
+}
+
+@media(max-width: 576px){
+  body{
+    background-color: #232331;
+  }
+  .listaFooter{
+    padding-left: 40px;
+  }
+
+  .footerNaslovDrugi{
+    margin-left: 64%;
+  }
+  
+  .onamaContainer{
+    background-color: #323247;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    height: 400px;
+  }
+  .introNaslov{
+    font-size: 200%;
+  }
+  .naslovOnama{
+    font-size: 200%;
+  }
+  .textOnama{
+    font-size: 100%;
+  }
+  .introImg{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+  }
+  .uslugeSlika{
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    padding: 0
+  }
+  .dugmeIntro{
+    margin-bottom: 5%;
+  }
+  .textOnama{
+    padding-bottom: 3%;
+  }
+  .uslugeContainer{
+    margin-top: 51%;
+  }
+  .onamaContainer2{
+    margin-top: -6.5%;
+  }
+  #drzavaDesno1{
+    margin-left: 30%;
+  }
+  #drzava{
+    margin-left: 30%;
+  }
+  .dugmeOnama{
+    margin-top: 4%;
+  }
+  .introNaslovServisi{
+    position: relative;
+    font-weight: bold;
+    font-size: 200%;
+  }
+  .introImgKontakt{
+    width: 100%;
+    height: 192px;
+    margin: 0;
+    padding: 0;
+  }
+  .naslovOnama2{
+    font-size: 200%;
+  }
+  .sveOnama{
+    font-size: 75%;
+  }
+  .sviServisi{
+    font-size: 75%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .prazan{
+    padding-top: 20px;
+  }
+  .containerIkonica{
+    padding-top: 1%;
+  }
+  .naslovUsluge{
+    font-size: 200%;
+  }
+  .pozicija{
+    padding-right: 0;
+  }
+  .kontaktFooter{
+    width: 85%;
+    margin-left: 11%;
+  }
+  #containerListaPrva{
+    margin-left: 20%;
+  }
+  #naslovFooterPrvi{
+    margin-left: 15%;
+  }
+  .lok{
+    padding-top: 1.69%;
+    padding-right: 0;
+    padding-left: 0;
+    height: 406px;;
+  }
+  .inputForma{
+    margin-left: 0;
+  }
+  .inputForma2{
+    margin-left: 0;
+  }
+  .poruka{
+    margin-left: 0;
+  }
+  #introNaslovMedia{
+    padding-top: 20px;
+  }
+  #naslovFooterPrvi{
+    margin-right: 44%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body{
+    background-color: #232331;
+  }
+  .listaFooter{
+    padding-left: 40px;
+  }
+
+  #naslovFooterPrvi{
+    padding-right: 50px;
+  }
+
+  .footerNaslovDrugi{
+    margin-left: 65%;
+  }
+  
+  .naslovUsluge{
+    font-size: 200%;
+  }
+  .introNaslov{
+    font-size: 200%;
+  }
+  .naslovOnama{
+    font-size: 200%;
+  }
+  .textOnama{
+    font-size: 100%;
+  }
+  .introImg{
+    width: 100%;
+    height: 490px;
+    margin: 0;
+    padding: 0;
+  }
+  .uslugeSlika{
+    width: 100%;
+    height: 1100px;
+    margin: 0;
+    padding: 0
+  }
+  .uslugeContainer{
+    margin-top: 51%;
+  }
+  .dugmeOnama{
+    margin-top: 4%;
+    padding: 1.4rem;
+    border-radius: 5%;
+    opacity: 1;
+    background-color: #A31621;
+    border-color: #A31621;
+  }
+  .naslovOnama2{
+    font-size: 200%;
+  }
+  .dugmeIntro2{
+    margin-top: 4%;
+    padding: 1.4rem;
+    border-radius: 5%;
+    opacity: 1;
+    background-color: #A31621;
+    border-color: #A31621;
+  }
+  .dugmeIntro2:hover {
+    background-color: #232331;
+    border-color: #232331;
+  }
+  .pomernje{
+    margin-right: 90px;
+  }
+  .kontaktFooter{
+    margin-left: 25%;
+    width: 75%;
+  }
+  .tekstIspodLoga{
+    padding-left: 20px;
+  }
+  .onamaContainer2{
+    margin-top: -14.4%;
+  }
+  .introNaslovServisi{
+    position: relative;
+    font-weight: bold;
+    font-size: 200%;
+    padding-bottom: 0;
+  }
+  #prazan2{
+    padding:0;
+  }
+  .introImgKontakt{
+    width: 100%;
+    height: 214px;
+    margin: 0;
+    padding: 0;
+  }
+  #containerListaPrva{
+    margin-left: 32%;
+  }
+  #naslovFooterPrvi{
+    margin-left: 23%;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1440px) {
+  body{
+    background-color: #232331;
+  }
+  .naslovUsluge{
+    font-size: 200%;
+  }
+  .listaFooter{
+    padding-left: 40px;
+  }
+  #naslovFooterPrvi{
+    padding-left: 0px;
+  }
+
+  .introNaslov{
+    font-size: 200%;
+  }
+  .naslovOnama{
+    font-size: 200%;
+  }
+  .textOnama{
+    font-size: 100%;
+  }
+  .onamaContainer{
+    background-color: #323247;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    height: 380px;
+  }
+  .onama{
+    margin-top: 11.3%;
+  }
+  .uslugeContainer{
+    margin-top: -2%;
+  }
+  .prazan{
+    margin-top: -4.4%;
+  }
+  .naslovOnama2{
+    font-size: 200%;
+    margin-top: -6%;
+  }
+  .sveOnama{
+    font-size: 80%;
+  }
+  .dugmeIntroOnama{
+    margin-top: 5%;
+  }
+  #prazan2{
+    margin-top: -5%;
+  }
+  .containerKontakt{
+    margin-top: -3%;
+  }
+  .lok{
+    margin-top: -1%;
+  }
+  .footer{
+    margin-top: -1.5%;
+  }
+  .containerIkonica{
+    padding-top: 0%;
+  }
+  .dugmeOnama{
+    margin-top: 20px;
+  }
+  #ikonicePadding{
+    padding-top: 7px;
+  }
+}
